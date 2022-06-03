@@ -14,7 +14,11 @@
 
 ## What are annotations?
 - Provide the extra information of a method source code
-- Ex: @override
+- Ex: @override (override a method with the same name from a parent class)
+
+## Java Collection
+Map is not inherit from Collection interface, but it is a Java collection also
+![Screenshot]\([https://i.ytimg.com/vi/gtBS7HKfy-k/maxresdefault.jpg](https://facingissuesonitcom.files.wordpress.com/2019/07/java-collection-framework-hierarchy.jpg?w=1024)) 
 
 # Maven
 ## What is Maven?
@@ -108,7 +112,7 @@ public class HelloWorld {
 }
 ```
 ##  What is the significance of the Spring Boot starter POM?
-- SpringBoot uses convention over configuration. It takes away some choices at first but save time for developers. Developers can always override configuration later
+- SpringBoot uses convention over configuration. It takes away some choices at first but save time for developers. Developers can always override the undesired configuration later
 - All Spring Boot projects use spring-boot-starter-parent as a parent in pom.xml file
 - The spring-boot-starter-parent is a special starter that provides useful Maven defaults. It also provides a dependency-management section so that you can omit version tags for “blessed” dependencies.
 - Ex:
@@ -120,6 +124,10 @@ dependencies>
     </dependency>
 </dependencies>
 ```
+
+## SpringBoot project diagram
+![Screenshot]\(https://i.ytimg.com/vi/gtBS7HKfy-k/maxresdefault.jpg) 
+
 
 
 
