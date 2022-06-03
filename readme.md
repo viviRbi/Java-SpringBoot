@@ -14,7 +14,7 @@
 
 ## What are annotations?
 - Provide the extra information of a method source code
-- Ex: @override (override a method with the same name from a parent class)
+- Ex: @override (override a method in the child class with the same name from a parent class)
 
 ## Java Collection
 Map is not inherit from Collection interface, but it is a Java collection also
